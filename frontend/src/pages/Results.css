@@ -1,0 +1,108 @@
+.results-container {
+  background-color: #121212;
+  color: #ffffff;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.artist-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  padding: 1rem 0;
+}
+
+.artist-image {
+  width: 232px;
+  height: 232px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 60px rgba(0,0,0,.5);
+}
+
+.artist-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.artist-name {
+  font-size: 6rem;
+  font-weight: bold;
+  margin: 0;
+  color: #ffffff;
+  line-height: 1.1;
+}
+
+.followers {
+  font-size: 1rem;
+  color: #b3b3b3;
+  margin: 0;
+}
+
+.top-tracks-section {
+  width: 100%;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.track-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.track-item {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #282828;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.track-item:last-child {
+  border-bottom: none;
+}
+
+.track-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.track-number {
+  color: #b3b3b3;
+  font-size: 1rem;
+  min-width: 1.5rem;
+}
+
+.track-name {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.track-artists {
+  font-size: 0.9rem;
+  color: #b3b3b3;
+  margin-left: 0.5rem;
+}
+
+.loading {
+  color: #ffffff;
+}
+
+.no-data {
+  color: #ffffff;
+}
+
+.error {
+  color: #ff4444;
+}
+  
